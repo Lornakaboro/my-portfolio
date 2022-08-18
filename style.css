@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.header {
+  color: #396DF2;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.glyphicon {
+  font-size: 20px;
+}
+
+.logo {
+  margin: 0;
+}
