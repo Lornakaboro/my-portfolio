@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Lorna**
 
 - GitHub: [@githubhandle](https://github.com/Lornakaboro)
 - Twitter: [@twitterhandle](https://twitter.com/KaboroLorna)
