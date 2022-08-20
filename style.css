@@ -91,6 +91,7 @@ body {
 
 .work-title {
   margin: 0;
+  font-size: 45px;
 }
 
 .work-pointers {
@@ -145,6 +146,16 @@ body {
   text-decoration: none;
 }
 
+.project-link:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.project-link:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
 .about-box {
   padding: 90px 24px 24px 24px;
   display: flex;
@@ -162,6 +173,16 @@ body {
   padding: 12px;
   font-size: 17px;
   font-weight: 500;
+}
+
+.intro-button:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.intro-button:focus {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .skill-list {
