@@ -9,14 +9,6 @@ body {
   background-color: #e5e5e5;
 }
 
-.intro-section {
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 400px 800px;
-  height: 850px;
-}
-
 .header {
   color: #396df2;
   display: flex;
@@ -35,11 +27,15 @@ body {
   padding: 20px;
   font-weight: 700;
   font-style: bold;
+  text-decoration: none;
+  color: inherit;
 }
 
 .info-box {
   padding: 24px;
   margin-top: 90px;
+  display: flex;
+  flex-direction: column;
 }
 
 .introduction {
@@ -48,6 +44,7 @@ body {
   line-height: 52px;
   color: #172b4d;
   vertical-align: center;
+  margin: 0;
 }
 
 .description {
@@ -62,8 +59,25 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin: 0;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 .icon {
-  padding-right: 12px;
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 375px) {
+  .intro-section {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 718px;
+  }
 }
