@@ -219,6 +219,102 @@ body {
   padding: 15px;
 }
 
+.contact-form {
+  background: url("form-background.png") ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact-form-section {
+  width: 580px;
+}
+
+.contact-form-heading {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+} 
+
+.contact-form-description {
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.contact-form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-form-username {
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 2px;
+  width: 447px;
+  padding: 15px 12px;
+}
+
+.contact-form-email {
+  margin-bottom: 20px;
+  width: 447px;
+  border: 1px solid #CFD8DC;
+  border-radius: 2px;
+  padding: 15px 12px;
+
+}
+
+.contact-form-message {
+  margin-bottom: 20px;
+  width: 447px;
+  height: 170px;
+  border-radius: 2px;
+  border: 1px solid #CFD8DC;
+  padding: 15px 12px ;
+
+}
+
+.contact-form-btn {
+  color: #6070FF;
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 15px;
+  width: 142px;
+  height: 48px;
+  border: 1px solid #7F8CFF;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 12px 16px;
+}
+
+.contact-form-btn:hover {
+  background-color: #6070FF;
+  color: #FFFFFF;
+}
+
+.contact-form-btn:active {
+  background-color: #2230D2;
+}
+
+.contact-form-btn:disabled {
+  background-color:  #E5E5E5;
+  color: #5E6C84;
+}
+
 @media screen and (max-width: 375px) {
   .intro-section {
     background-image: url("background.png");
