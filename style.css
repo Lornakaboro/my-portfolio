@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
 
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: poppins, arial, sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .work {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 16px;
   padding-bottom: 30px;
@@ -148,25 +148,25 @@ body {
 
 .project-link:hover {
   background-color: #396df2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .project-link:focus {
   background-color: #2230d2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .about-box {
   padding: 90px 24px 24px 24px;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #ffffff;
   border-top-right-radius: 50px;
 }
 
 .intro-button {
   width: max-content;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
@@ -177,12 +177,12 @@ body {
 
 .intro-button:hover {
   background-color: #396df2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .intro-button:focus {
   background-color: #2230d2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .skill-list {
@@ -224,21 +224,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .contact-form-heading {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-} 
+}
 
 .contact-form-description {
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
   font-weight: 400;
   text-align: center;
   margin-top: 12px;
@@ -253,11 +253,10 @@ body {
 }
 
 .contact-form-email,
-.contact-form-username
-{
+.contact-form-username {
   margin-bottom: 20px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
   border-radius: 2px;
   width: 100%;
   padding: 15px;
@@ -269,36 +268,36 @@ body {
   width: 100%;
   height: 170px;
   border-radius: 2px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   padding: 15px;
 }
 
 .contact-form-btn {
-  color: #6070FF;
+  color: #6070ff;
   text-align: center;
   font-weight: 500;
   line-height: 24px;
   font-size: 15px;
   width: 142px;
   height: 48px;
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 12px 16px;
 }
 
 .contact-form-btn:hover {
-  background-color: #6070FF;
-  color: #FFFFFF;
+  background-color: #6070ff;
+  color: #ffffff;
 }
 
 .contact-form-btn:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 .contact-form-btn:disabled {
-  background-color:  #E5E5E5;
-  color: #5E6C84;
+  background-color: #e5e5e5;
+  color: #5e6c84;
 }
 
 @media screen and (max-width: 375px) {
@@ -311,27 +310,27 @@ body {
   }
 
   .contact-form {
-    background-image: url("form-background2.png") ;
+    background-image: url("form-background2.png");
     background-size: cover;
     height: 779px;
     background-repeat: no-repeat;
   }
 
- .contact-form-username {
-     width: 100%;
+  .contact-form-username {
+    width: 100%;
   }
 
   .contact-form-message {
-  width: 100%;
-  height: 170px;
+    width: 100%;
+    height: 170px;
   }
- 
- .contact-form-email {
-  width: 100%;
+
+  .contact-form-email {
+    width: 100%;
   }
  
   .contact-form-btn {
-   width: 142px;
-  height: 48px;
-} 
+    width: 142px;
+    height: 48px;
+  }
 }
