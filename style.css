@@ -79,7 +79,7 @@ body {
 }
 
 .work {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 16px;
   padding-bottom: 30px;
@@ -148,25 +148,25 @@ body {
 
 .project-link:hover {
   background-color: #396df2;
-  color: #ffffff;
+  color: #fff;
 }
 
 .project-link:focus {
   background-color: #2230d2;
-  color: #ffffff;
+  color: #fff;
 }
 
 .about-box {
   padding: 90px 24px 24px 24px;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
   border-top-right-radius: 50px;
 }
 
 .intro-button {
   width: max-content;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
@@ -177,12 +177,12 @@ body {
 
 .intro-button:hover {
   background-color: #396df2;
-  color: #ffffff;
+  color: #fff;
 }
 
 .intro-button:focus {
   background-color: #2230d2;
-  color: #ffffff;
+  color: #fff;
 }
 
 .skill-list {
@@ -228,7 +228,7 @@ body {
 }
 
 .contact-form-heading {
-  color: #ffffff;
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -255,7 +255,7 @@ body {
 .contact-form-email,
 .contact-form-username {
   margin-bottom: 20px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 2px;
   width: 100%;
@@ -282,13 +282,13 @@ body {
   height: 48px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 12px 16px;
 }
 
 .contact-form-btn:hover {
   background-color: #6070ff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .contact-form-btn:active {
@@ -328,7 +328,7 @@ body {
   .contact-form-email {
     width: 100%;
   }
- 
+
   .contact-form-btn {
     width: 142px;
     height: 48px;
