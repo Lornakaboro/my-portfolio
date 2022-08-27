@@ -343,33 +343,8 @@ body {
     flex-direction: column;
   }
 
-  .contact-form {
-    background-image: url("form-background2.png");
-    background-size: cover;
-    height: 779px;
-    background-repeat: no-repeat;
-  }
-
   .contact-form-content {
     align-items: flex-start;
-  }
-
-  .contact-form-username {
-    width: 100%;
-  }
-
-  .contact-form-message {
-    width: 100%;
-    height: 170px;
-  }
-
-  .contact-form-email {
-    width: 100%;
-  }
-
-  .contact-form-btn {
-    width: 142px;
-    height: 48px;
   }
 }
 
@@ -443,6 +418,7 @@ body {
 
   .skill-list {
     flex: 1;
+    margin: 0;
   }
 
   .language-list {
@@ -462,10 +438,6 @@ body {
     padding-left: 10%;
     font-size: 15px;
     font-weight: 500;
-  }
-
-  .skill-list {
-    margin: 0;
   }
 
   .contact-form {
