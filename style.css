@@ -307,13 +307,12 @@ body {
   color: #5e6c84;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .intro-section {
     background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    background-repeat: no-repeat;
+    height: 779px;
   }
 
   .contact-form {
