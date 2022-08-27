@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
 
+* {
+  font-family: Poppins, arial, sans-serif;
+}
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  font-family: poppins, arial, sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -225,6 +228,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .contact-form-heading {
@@ -233,6 +237,8 @@ body {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 .contact-form-description {
@@ -241,7 +247,7 @@ body {
   color: #ebebff;
   font-weight: 400;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -249,15 +255,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 25px;
+  padding-right: 35px;
+  width: 80%;
 }
 
 .contact-form-email,
 .contact-form-username {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 2px;
+  border-radius: 10px;
   width: 100%;
   padding: 15px;
   margin-left: 0;
@@ -267,7 +274,7 @@ body {
   margin-bottom: 20px;
   width: 100%;
   height: 170px;
-  border-radius: 2px;
+  border-radius: 10px;
   border: 1px solid #cfd8dc;
   padding: 15px;
 }
@@ -306,7 +313,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 718px;
+    height: 800px;
   }
 
   .contact-form {
@@ -314,6 +321,7 @@ body {
     background-size: cover;
     height: 779px;
     background-repeat: no-repeat;
+    background-color: #fff;
   }
 
   .contact-form-username {
