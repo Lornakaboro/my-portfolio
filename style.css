@@ -315,6 +315,10 @@ body {
     height: 779px;
   }
 
+  .desktop-works {
+    display: none;
+  }
+
   .work {
     margin: 10% 5% 10% 5%;
   }
@@ -400,6 +404,10 @@ body {
 
   .info-box {
     padding: 20% 19% 17% 19%;
+  }
+
+  .mobile-works {
+    display: none;
   }
 
   .work {
