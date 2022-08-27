@@ -72,9 +72,8 @@ body {
 }
 
 .my-works {
-  display: grid;
-  gap: 1rem;
-  margin: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .work {
@@ -227,8 +226,6 @@ body {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  margin-top: 15%;
-  margin-bottom: 5%;
 }
 
 .contact-form-description {
@@ -298,11 +295,28 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .info-box {
+    padding: 24px;
+    margin-top: 90px;
+  }
+
   .intro-section {
     background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 779px;
+  }
+
+  .work {
+    margin: 10% 5% 10% 5%;
   }
 
   .contact-form {
@@ -311,6 +325,11 @@ body {
     height: 779px;
     background-repeat: no-repeat;
     background-color: #fff;
+  }
+
+  .contact-form-heading {
+    margin-top: 15%;
+    margin-bottom: 5%;
   }
 
   .contact-form-username {
@@ -348,7 +367,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 376px) {
+@media only screen and (max-width: 1440px) and (min-width: 481px) {
   .header {
     margin-left: 12%;
     margin-right: 10%;
@@ -387,6 +406,7 @@ body {
     display: flex;
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 8%;
   }
 
   .work-reverse {
@@ -407,6 +427,7 @@ body {
 
   .about-box {
     padding: 12% 12% 10% 3%;
+    margin-top: 8%;
   }
 
   .about-box-section {
@@ -443,9 +464,14 @@ body {
   .contact-form {
     background-image: url("form-background.png");
     background-size: cover;
-    height: 1000px;
+    height: 846px;
     background-repeat: no-repeat;
     background-color: #fff;
+  }
+
+  .contact-form-heading {
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
 
   .contact-form-description {
