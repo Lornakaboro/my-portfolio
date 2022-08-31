@@ -165,6 +165,7 @@ body {
   padding: 12px;
   font-size: 17px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .intro-button:hover {
@@ -283,6 +284,7 @@ body {
 .contact-form-btn:hover {
   background-color: #6070ff;
   color: #fff;
+  cursor: pointer;
 }
 
 .contact-form-btn:active {
