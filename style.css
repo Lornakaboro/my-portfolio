@@ -294,7 +294,7 @@ body {
   color: #5e6c84;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .header {
     width: 100%;
   }
@@ -371,7 +371,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 481px) {
+@media only screen and (min-width: 768px) {
   .header {
     margin-left: 12%;
     margin-right: 10%;
