@@ -32,6 +32,10 @@ body {
   color: inherit;
 }
 
+.logo:hover {
+  transform: rotate(90deg);
+}
+
 .info-box {
   display: flex;
   flex-direction: column;
