@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
   font-family: Poppins, arial, sans-serif;
@@ -15,7 +14,6 @@ body {
 .header {
   color: #396df2;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -35,8 +33,6 @@ body {
 }
 
 .info-box {
-  padding: 24px;
-  margin-top: 90px;
   display: flex;
   flex-direction: column;
 }
@@ -76,9 +72,8 @@ body {
 }
 
 .my-works {
-  display: grid;
-  gap: 1rem;
-  margin: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .work {
@@ -86,10 +81,6 @@ body {
   padding: 20px;
   border-radius: 16px;
   padding-bottom: 30px;
-}
-
-.work-image {
-  width: 100%;
 }
 
 .work-title {
@@ -109,7 +100,6 @@ body {
 .work-pointers-bullets {
   display: flex;
   justify-content: space-between;
-  width: 60%;
   color: #7a869a;
 }
 
@@ -162,7 +152,6 @@ body {
 .about-box {
   padding: 90px 24px 24px 24px;
   display: flex;
-  flex-direction: column;
   background-color: #fff;
   border-top-right-radius: 50px;
 }
@@ -237,8 +226,6 @@ body {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  margin-top: 15%;
-  margin-bottom: 5%;
 }
 
 .contact-form-description {
@@ -307,12 +294,33 @@ body {
   color: #5e6c84;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .info-box {
+    padding: 24px;
+    margin-top: 90px;
+  }
+
   .intro-section {
     background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 779px;
+  }
+
+  .desktop-works {
+    display: none;
+  }
+
+  .work {
+    margin: 10% 5% 10% 5%;
   }
 
   .contact-form {
@@ -321,6 +329,11 @@ body {
     height: 779px;
     background-repeat: no-repeat;
     background-color: #fff;
+  }
+
+  .contact-form-heading {
+    margin-top: 15%;
+    margin-bottom: 5%;
   }
 
   .contact-form-username {
@@ -339,5 +352,142 @@ body {
   .contact-form-btn {
     width: 142px;
     height: 48px;
+  }
+
+  .work-image {
+    width: 100%;
+  }
+
+  .work-pointers-bullets {
+    width: 60%;
+  }
+
+  .about-box {
+    flex-direction: column;
+  }
+
+  .contact-form-content {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    margin-left: 12%;
+    margin-right: 10%;
+    width: 78%;
+  }
+
+  .intro-section {
+    background-image: url("desktop-version.png");
+    background-size: cover;
+    height: 1000px;
+  }
+
+  i.hamburger {
+    display: none;
+  }
+
+  .nav {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-item {
+    margin-right: 15%;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .info-box {
+    padding: 20% 19% 17% 19%;
+  }
+
+  .mobile-works {
+    display: none;
+  }
+
+  .work {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+
+  .work-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .work-image {
+    width: 45%;
+  }
+
+  .work-description-section {
+    margin-left: 4%;
+  }
+
+  .work-pointers-bullets {
+    width: 28%;
+  }
+
+  .about-box {
+    padding: 12% 12% 10% 3%;
+    margin-top: 8%;
+  }
+
+  .about-box-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 4%;
+  }
+
+  .skill-list {
+    flex: 1;
+    margin: 0;
+  }
+
+  .language-list {
+    display: flex;
+    width: 70%;
+  }
+
+  .language-item {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    align-items: flex-start;
+    margin-right: 3%;
+  }
+
+  .language {
+    padding-left: 10%;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .contact-form {
+    background-image: url("form-background.png");
+    background-size: cover;
+    height: 846px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  .contact-form-heading {
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+
+  .contact-form-description {
+    width: 40%;
+  }
+
+  .contact-form-content {
+    width: 30%;
+    align-items: center;
   }
 }
