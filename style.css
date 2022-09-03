@@ -32,6 +32,10 @@ body {
   color: inherit;
 }
 
+.logo:hover {
+  transform: rotate(90deg);
+}
+
 .info-box {
   display: flex;
   flex-direction: column;
@@ -373,7 +377,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .header {
     margin-left: 12%;
     margin-right: 10%;
