@@ -4,6 +4,9 @@
 
 > My name is Lorna and this is my portfolio aimed at showcasing my accomplishments, skills and educational background
 
+## Live link
+Click [here](https://lornakaboro.github.io/my-portfolio/)
+
 ## Built With
 
 - HTML
