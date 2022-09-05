@@ -309,6 +309,35 @@ body {
     display: none;
   }
 
+  .dropdown-menu {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    background-color: #6070ff;
+    height: 127.5vh;
+    width: 100%;
+    opacity: 0.95;
+  }
+  
+  .nav-dropdown {
+    list-style: none;
+    margin-top: 15%;
+  }
+
+  .dropdown-x-icon {
+    float: right;
+    margin-right: 8%;
+    margin-top: 8%;
+  }
+
+  .nav-dropdown-item-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 62px;
+  }
+  
   .info-box {
     padding: 24px;
     margin-top: 90px;
@@ -388,6 +417,10 @@ body {
     background-image: url("desktop-version.png");
     background-size: cover;
     height: 1000px;
+  }
+
+  .dropdown-menu {
+    display: none;
   }
 
   i.hamburger {
