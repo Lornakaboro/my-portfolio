@@ -318,6 +318,10 @@ body {
     width: 100%;
     opacity: 0.95;
   }
+
+  .hidden-dropdown-menu {
+    display: none;
+  }
   
   .nav-dropdown {
     list-style: none;
@@ -344,7 +348,7 @@ body {
   }
 
   .intro-section {
-    background-image: url("background.png");
+    background-image: url("/images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 779px;
@@ -359,7 +363,7 @@ body {
   }
 
   .contact-form {
-    background-image: url("form-background2.png");
+    background-image: url("/images/form-background2.png");
     background-size: cover;
     height: 779px;
     background-repeat: no-repeat;
@@ -414,7 +418,7 @@ body {
   }
 
   .intro-section {
-    background-image: url("desktop-version.png");
+    background-image: url("/images/desktop-version.png");
     background-size: cover;
     height: 1000px;
   }
@@ -509,7 +513,7 @@ body {
   }
 
   .contact-form {
-    background-image: url("form-background.png");
+    background-image: url("/images/form-background.png");
     background-size: cover;
     height: 846px;
     background-repeat: no-repeat;
