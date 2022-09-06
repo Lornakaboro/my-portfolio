@@ -326,7 +326,7 @@ body {
   .hidden-dropdown-menu {
     display: none;
   }
-  
+
   .nav-dropdown {
     list-style: none;
     margin-top: 15%;
@@ -336,7 +336,6 @@ body {
     float: right;
     margin-right: 8%;
     margin-top: 8%;
-    animation: growDown 300ms ease-in-out forwards
   }
 
   .nav-dropdown-item-link {
@@ -346,7 +345,7 @@ body {
     font-size: 32px;
     line-height: 62px;
   }
-  
+
   .info-box {
     padding: 24px;
     margin-top: 90px;
