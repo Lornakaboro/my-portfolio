@@ -9,17 +9,25 @@
   <script src="https://kit.fontawesome.com/c6cb015206.js" crossorigin="anonymous"></script>
 <body>
 
-  <div class="intro-section">
+  <div class="dropdown-menu hidden-dropdown-menu" id="nav-dropdown-menu">
+    <i class="fa-regular fa-x dropdown-x-icon" id="nav-dropdown-x-icon" onclick="toggleMobileMenu()"></i>
+    <ul class="nav-dropdown">
+      <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" onclick="openDropdownItem(this,'#introduction-section')">Portfolio</a></li>
+      <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" onclick="openDropdownItem(this, '#about-me')">About</a></li>
+      <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" onclick="openDropdownItem(this, '#contact-me')">Contact</a></li>
+    </ul>
+  </div>
+  <div class="intro-section" id="intro-section">
     <header class="header">
       <a href="" class="logo">My Logo</a>
-      <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+      <i class="fa fa-bars hamburger" aria-hidden="true" id="hamburger-icon" onclick="toggleMobileMenu()"></i>
       <ul class="nav">
-        <li class="nav-item"><a href="!#" class="nav-link">Portfolio</a></li>
-        <li class="nav-item"><a href="!#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="!#" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#introduction-section" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#contact-me" class="nav-link">Contact</a></li>
       </ul>
     </header>
-    <section class="info-box">
+    <section class="info-box" id="introduction-section">
       <h1 class="introduction">I&#39;m Lorna <br/> Glad to see you!</h1>
       <p class="description">I&#39;m a software developer! I can help you build a product , feature or website 
         Look through some of my work and experience! If you like what you see and have 
@@ -29,27 +37,27 @@
       <ul class="social-media">
         <li>
           <a href="https://twitter.com/KaboroLorna">
-            <img class="icon" src="./twitter.png" alt="twitter-icon">
+            <img class="icon" src="./images/twitter.png" alt="twitter-icon">
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/lorna-kaboro-23620b242/">
-            <img class="icon" src="./linkedin.png" alt="linkedin-icon">
+            <img class="icon" src="./images/linkedin.png" alt="linkedin-icon">
           </a>
         </li>
         <li>
           <a href="!#">
-            <img class="icon" src="./medium.png" alt="medium-icon"> 
+            <img class="icon" src="./images/medium.png" alt="medium-icon"> 
           </a>
         </li>
         <li>
           <a href="https://github.com/Lornakaboro">
-            <img class="icon" src="./github.png" alt="github-icon">
+            <img class="icon" src=".//images/github.png" alt="github-icon">
           </a>
         </li>
         <li>
           <a href="!#">
-            <img class="icon" src="./hand.png" alt="hand-icon">
+            <img class="icon" src=".//images/hand.png" alt="hand-icon">
           </a>
         </li>
       </ul>
@@ -58,7 +66,7 @@
 
   <div class="my-works desktop-works">
     <div class="work">
-      <img src="./tonic-desktop.png" class="work-image" alt="image of a website hero-section">
+      <img src=".//images/tonic-desktop.png" class="work-image" alt="image of a website hero-section">
       <div class="work-description-section">
         <h2 class="work-title">Tonic</h2>
         <div class="work-pointers">
@@ -81,7 +89,7 @@
     </div>
 
     <div class="work work-reverse">
-      <img src="./multi-post-stories-desktop.png" class="work-image" alt="colorful art image">
+      <img src=".//images/multi-post-stories-desktop.png" class="work-image" alt="colorful art image">
       <div class="work-description-section">
         <h2 class="work-title">Multi-Post Stories</h2>
         <div class="work-pointers">
@@ -105,7 +113,7 @@
     </div>
 
     <div class="work">
-      <img src="./facebook.png" class="work-image" alt="image of category prices">
+      <img src=".//images/facebook.png" class="work-image" alt="image of category prices">
       <div class="work-description-section">
           <h2 class="work-title">Facebook 360</h2>
         <div class="work-pointers">
@@ -129,7 +137,7 @@
     </div>
 
     <div class="work work-reverse">
-      <img src="./uber-navigation.png" class="work-image" alt="image of a calendar showing availability">
+      <img src=".//images/uber-navigation.png" class="work-image" alt="image of a calendar showing availability">
       <div class="work-description-section">
         <h2 class="work-title">Uber Navigation</h2>
         <div class="work-pointers">
@@ -155,7 +163,7 @@
 
   <div class="my-works mobile-works">
     <div class="work">
-      <img src="./tonic-work.png" class="work-image" alt="image of a lady doing yoga">
+      <img src=".//images/tonic-work.png" class="work-image" alt="image of a lady doing yoga">
       <h2 class="work-title">Tonic</h2>
       <div class="work-pointers">
         <p class="work-pointers-title">CANOPY</p>
@@ -176,7 +184,7 @@
     </div>
 
     <div class="work">
-      <img src="./multi-post-stories.png" class="work-image" alt="multi-post-stories">
+      <img src=".//images/multi-post-stories.png" class="work-image" alt="multi-post-stories">
       <h2 class="work-title">Multi-Post Stories</h2>
       <div class="work-pointers">
         <p class="work-pointers-title">CANOPY</p>
@@ -197,7 +205,7 @@
     </div>
 
     <div class="work">
-      <img src="./tonic-work2.png" class="work-image" alt="tonic-work2">
+      <img src=".//images/tonic-work2.png" class="work-image" alt="tonic-work2">
       <h2 class="work-title">Tonic</h2>
       <div class="work-pointers">
         <p class="work-pointers-title">CANOPY</p>
@@ -218,7 +226,7 @@
     </div>
 
     <div class="work">
-      <img src="./multi-post-stories2.png" class="work-image" alt="multi-post-stories2">
+      <img src=".//images/multi-post-stories2.png" class="work-image" alt="multi-post-stories2">
       <h2 class="work-title">Multi-Post Stories</h2>
       <div class="work-pointers">
         <p class="work-pointers-title">CANOPY</p>
@@ -239,7 +247,7 @@
     </div>
   </div>
 
-  <section class="about-box">
+  <section class="about-box" id="about-me">
     <div class="about-box-section">
         <h2 class="introduction">About <br>Myself</h2>
       <p class="description">Hello I&#39;m a software developer! I can help you build a product , feature or website 
@@ -250,27 +258,27 @@
       <ul class="social-media">
         <li>
           <a href="https://github.com/Lornakaboro">
-            <img class="icon" src="./github.png" alt="github-icon">
+            <img class="icon" src=".//images/github.png" alt="github-icon">
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/lorna-kaboro-23620b242/">
-            <img class="icon" src="./linkedin.png" alt="linkedin-icon">
+            <img class="icon" src=".//images/linkedin.png" alt="linkedin-icon">
           </a>
         </li>
         <li>
           <a href="!#">
-            <img class="icon" src="./hand.png" alt="hand-icon">
+            <img class="icon" src=".//images/hand.png" alt="hand-icon">
           </a>
         </li>
         <li>
           <a href="https://twitter.com/KaboroLorna">
-            <img class="icon" src="./twitter.png" alt="twitter-icon">
+            <img class="icon" src=".//images/twitter.png" alt="twitter-icon">
           </a>
         </li>
         <li>
           <a href="!#">
-            <img class="icon" src="./medium.png" alt="medium-icon"> 
+            <img class="icon" src=".//images/medium.png" alt="medium-icon"> 
           </a>
         </li>
       </ul>
@@ -285,15 +293,15 @@
         </div>
         <ul class="language-list">
           <li class="language-item">
-            <img class="language-icon" src="./javacsript-logo.png" alt="javascript-icon"> 
+            <img class="language-icon" src=".//images/javacsript-logo.png" alt="javascript-icon"> 
             <p class="language">JavaScript</p>
           </li>
           <li class="language-item">
-            <img class="language-icon" src="./html-logo.png" alt="html-icon"> 
+            <img class="language-icon" src=".//images/html-logo.png" alt="html-icon"> 
             <p class="language">HTML</p>
           </li>
           <li class="language-item">
-            <img class="language-icon" src="./css-logo.png" alt="css-icon"> 
+            <img class="language-icon" src=".//images/css-logo.png" alt="css-icon"> 
             <p class="language">CSS</p>
           </li>
         </ul>
@@ -308,7 +316,7 @@
       </li>
     </ul>
   </section>
-  <section class="contact-form">
+  <section class="contact-form" id="contact-me">
         <h2 class="contact-form-heading">Contact me</h2>
         <p class="contact-form-description">If you have an application you are interested in developing, a feature that 
             you need built or a project that needs coding. I&#39;d love to help with it </p>
@@ -323,5 +331,6 @@
             <button type="submit" class=" contact-form-btn">Get in Touch</button>
         </form>
   </section>
+  <script src="index.js"></script>
 </body>
 </html>
