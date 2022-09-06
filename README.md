@@ -12,6 +12,7 @@ Click [here](https://lornakaboro.github.io/my-portfolio/)
 - HTML
 - CSS
 - Font awesome
+- Javascript
 
 ## Getting Started
 
