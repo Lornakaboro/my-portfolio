@@ -332,6 +332,7 @@ body {
     float: right;
     margin-right: 8%;
     margin-top: 8%;
+    animation: growDown 300ms ease-in-out forwards
   }
 
   .nav-dropdown-item-link {
