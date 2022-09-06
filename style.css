@@ -320,7 +320,8 @@ body {
     background-color: #6070ff;
     height: 127.5vh;
     width: 100%;
-    opacity: 0.95;
+    opacity: 0.85;
+
   }
 
   .hidden-dropdown-menu {
@@ -356,6 +357,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 779px;
+  }
+
+  .blur-intro-section {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
   }
 
   .desktop-works {
