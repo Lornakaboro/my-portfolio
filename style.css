@@ -307,6 +307,18 @@ body {
 .popup-icon {
   margin-left: 8%;
 }
+@keyframes animefromtop { 
+  from{
+    top: -300px;
+    opacity: 0;
+
+  }
+  tp{
+    top: 0;
+    opacity: 1;
+  }
+  
+}
 
 @media screen and (max-width: 768px) {
   .header {
@@ -426,6 +438,23 @@ body {
     width: 100%;
     top: 0;
     overflow: auto;
+    animation-name:animefromtop;
+    animation-duration:0.6s;
+    
+
+
+  }
+  @keyframes animefromtop { 
+    from{
+      top: -300px;
+      opacity: 0;
+
+    }
+    tp{
+      top: 0;
+      opacity: 1;
+    }
+    
   }
 
   .hide-mobile-popup {
@@ -593,6 +622,21 @@ body {
     bottom: 0;
     backdrop-filter: blur(2px);
     width: 100%;
+    animation-name:animefromtop;
+    animation-duration:0.6s;
+    
+  } 
+   @keyframes animefromtop { 
+    from{
+      top: -300px;
+      opacity: 0;
+
+    }
+    tp{
+      top: 0;
+      opacity: 1;
+    }
+    
   }
 
   .desktop-popup {
