@@ -313,7 +313,7 @@ body {
     top: -300px;
     opacity: 0;
   }
-  
+
   to {
     top: 0;
     opacity: 1;
@@ -619,7 +619,7 @@ body {
     animation-name: animefromtop;
     animation-duration: 0.6s;
   }
-  
+
   @keyframes animefromtop {
     from {
       top: -300px;
