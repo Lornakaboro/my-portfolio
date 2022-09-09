@@ -262,3 +262,5 @@ function openDesktopPopUp(
     desktopPopUp.innerHTML = data
     desktopPopUp.classList.remove("hide-desktop-popup")
 }
+
+
