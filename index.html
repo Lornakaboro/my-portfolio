@@ -320,11 +320,12 @@
         <h2 class="contact-form-heading">Contact me</h2>
         <p class="contact-form-description">If you have an application you are interested in developing, a feature that 
             you need built or a project that needs coding. I&#39;d love to help with it </p>
-        <form action="https://formspree.io/f/mpznwdqe" class="contact-form-content" method="post">
+        <form action="https://formspree.io/f/mpznwdqe" class="contact-form-content" method="post" novalidate>
             <input type="text" name="username" class="contact-form-username"
               placeholder ="enter username" required="required" maxlength="30" >
             <input type="email" name="email" class=" contact-form-email"
               placeholder="enter email" required="required">
+              <span class="error" aria-live="polite"></span>
         <textarea name="message" cols="30" rows="10" class="contact-form-message"
               maxlength = "500" placeholder = "Write your message here" required="required">
         </textarea>
