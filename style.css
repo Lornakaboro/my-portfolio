@@ -307,17 +307,16 @@ body {
 .popup-icon {
   margin-left: 8%;
 }
-@keyframes animefromtop { 
-  from{
+
+@keyframes animefromtop {
+  from {
     top: -300px;
     opacity: 0;
-
   }
-  tp{
+  tp {
     top: 0;
     opacity: 1;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -433,28 +432,23 @@ body {
   .mobile-popup {
     position: fixed;
     z-index: 1;
-    background-color: rgba(193,199,208, 0.4);
+    background-color: rgba(193, 199, 208, 0.4);
     height: 100%;
     width: 100%;
     top: 0;
     overflow: auto;
-    animation-name:animefromtop;
-    animation-duration:0.6s;
-    
-
-
+    animation-name: animefromtop;
+    animation-duration: 0.6s;
   }
-  @keyframes animefromtop { 
-    from{
+  @keyframes animefromtop {
+    from {
       top: -300px;
       opacity: 0;
-
     }
-    tp{
+    tp {
       top: 0;
       opacity: 1;
     }
-    
   }
 
   .hide-mobile-popup {
@@ -614,7 +608,7 @@ body {
   }
 
   .desktop-popup-container {
-    background-color: rgba(193,199,208, 0.6);
+    background-color: rgba(193, 199, 208, 0.6);
     z-index: 1;
     position: fixed;
     top: 0;
@@ -622,21 +616,18 @@ body {
     bottom: 0;
     backdrop-filter: blur(2px);
     width: 100%;
-    animation-name:animefromtop;
-    animation-duration:0.6s;
-    
-  } 
-   @keyframes animefromtop { 
-    from{
+    animation-name: animefromtop;
+    animation-duration: 0.6s;
+  }
+  @keyframes animefromtop {
+    from {
       top: -300px;
       opacity: 0;
-
     }
-    tp{
+    tp {
       top: 0;
       opacity: 1;
     }
-    
   }
 
   .desktop-popup {
@@ -708,7 +699,7 @@ body {
     text-decoration: none;
     margin-right: 4px;
   }
-  
+
   .desktop-popup-project-link:hover {
     background-color: #396df2;
     color: #fff;
