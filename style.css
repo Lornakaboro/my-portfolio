@@ -372,10 +372,10 @@ body {
     height: 779px;
   }
 
-  /* .blur-intro-section {
+  .blur-intro-section {
     filter: blur(4px);
     -webkit-filter: blur(4px);
-  } */
+  }
 
   .desktop-works {
     display: none;
