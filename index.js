@@ -173,7 +173,7 @@ const desktopProjectData = [
   {
     name: 'Facebook 360',
     description:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     featuredImage: './images/facebook.png',
     pointersTitle: 'FACEBOOK',
     pointersLevel: 'Full Stack Dev',
