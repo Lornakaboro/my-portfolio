@@ -98,8 +98,7 @@ function generateMobileProjectData(projectList) {
   return data;
 }
 
-document.getElementById('mobile-works').innerHTML =
-  generateMobileProjectData(projectData);
+document.getElementById('mobile-works').innerHTML = generateMobileProjectData(projectData);
 
 const popup = document.getElementById('mobile-popup');
 
