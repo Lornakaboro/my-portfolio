@@ -1,9 +1,9 @@
-/* exported toggleMobileMenu */
-/* exported openDropdownItem */
-/* exported closePopUp */
-/* exported openPopUp */
-/* exported closeDesktopPopUp' */
-/* exported openDesktopPopUp */
+/* globals toggleMobileMenu */
+/* globals openDropdownItem */
+/* globals closePopUp */
+/* globals openPopUp */
+/* globals closeDesktopPopUp' */
+/* globals openDesktopPopUp */
 
 function toggleMobileMenu() {
   document
@@ -243,7 +243,7 @@ document.getElementById('desktop-works').innerHTML = generateDesktopProjectData(
 function openDesktopPopUp(counter) {
   const currentProjectData = desktopProjectData[counter];
   const desktopTechnologies = getTechnologies(
-    desktopProjectData[counter].technologies
+    desktopProjectData[counter].technologies,
   );
   const data = `
     <div class='desktop-popup' >
