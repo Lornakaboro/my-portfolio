@@ -264,6 +264,9 @@ function openDesktopPopUp(
 }
 
 // form validation
+const userNameInput = document.getElementById("contact-form-username")
+const userEmailInput = document.getElementById("contact-form-email")
+const userTextInput = document.getElementById("contact-form-message")
 
 function validateContactForm() {
   const userEmail = document.forms["my-contact-form"]["email"].value;
@@ -271,4 +274,11 @@ function validateContactForm() {
     document.getElementById("contact-form-error").innerHTML = "Your email should be in lowercase"
     return false;
   }
+  localStorage.setItem("contact-form-username", userNameInput.value)
+  localStorage.setItem("contact-form-email", userEmailInput.value)
+  localStorage.setItem("contact-form-message", userTextInput.value)
 }
+
+userNameInput.value = localStorage.getItem("contact-form-username")
+userEmailInput.value = localStorage.getItem("contact-form-email")
+userTextInput.value = localStorage.getItem("contact-form-message")
