@@ -136,7 +136,7 @@ function openPopUp(index) {
         </div>
     </div>
     `;
-  
+  popup.innerHTML = data;
   popup.classList.remove('hide-mobile-popup');
 }
 
