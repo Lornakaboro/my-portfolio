@@ -99,7 +99,7 @@ function generateMobileProjectData(projectList) {
             </div>
         `;
   }
-  return data;
+  
 }
 
 document.getElementById('mobile-works').innerHTML = generateMobileProjectData(projectData);
