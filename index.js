@@ -1,3 +1,10 @@
+/* exported toggleMobileMenu */
+/* exported openDropdownItem */
+/* exported closePopUp */
+/* exported openPopUp */
+/* exported closeDesktopPopUp' */
+/* exported openDesktopPopUp */
+
 function toggleMobileMenu() {
   document
     .getElementById('nav-dropdown-menu')
@@ -25,6 +32,8 @@ function getTechnologies(technologies) {
   }
   return tech;
 }
+
+const popup = document.getElementById('mobile-popup');
 
 function closePopUp() {
   popup.classList.add('hide-mobile-popup');
@@ -99,8 +108,6 @@ function generateMobileProjectData(projectList) {
 }
 
 document.getElementById('mobile-works').innerHTML = generateMobileProjectData(projectData);
-
-const popup = document.getElementById('mobile-popup');
 
 function openPopUp(index) {
   const technologiesUsed = getTechnologies(projectData[index].technologies);
@@ -231,8 +238,7 @@ function generateDesktopProjectData(projectList) {
   return data;
 }
 
-document.getElementById('desktop-works').innerHTML =
-  generateDesktopProjectData(projectData);
+document.getElementById('desktop-works').innerHTML = generateDesktopProjectData(projectData);
 
 function openDesktopPopUp(counter) {
   const currentProjectData = desktopProjectData[counter];
