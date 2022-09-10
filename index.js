@@ -277,3 +277,14 @@ function openDesktopPopUp(counter) {
   desktopPopUp.innerHTML = data;
   desktopPopUp.classList.remove('hide-desktop-popup');
 }
+
+// form validation
+
+function validateContactForm() {
+  const userEmail = document.forms['my-contact-form']['.email'].value;
+  if (userEmail !== userEmail.toLowerCase()) {
+    document.getElementById('contact-form-error').innerHTML = 'Your email should be in lowercase';
+    return false;
+  }
+  return true;
+}
