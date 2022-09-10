@@ -348,8 +348,8 @@ body {
 
   .dropdown-x-icon {
     float: right;
-    margin-right: 8%;
-    margin-top: 8%;
+    margin-right: 6.5%;
+    margin-top: 6.5%;
   }
 
   .nav-dropdown-item-link {
@@ -366,16 +366,16 @@ body {
   }
 
   .intro-section {
-    background-image: url("/images/background.png");
+    background-image: url("./images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 779px;
   }
 
-  .blur-intro-section {
+  /* .blur-intro-section {
     filter: blur(4px);
     -webkit-filter: blur(4px);
-  }
+  } */
 
   .desktop-works {
     display: none;
@@ -386,7 +386,7 @@ body {
   }
 
   .contact-form {
-    background-image: url("/images/form-background2.png");
+    background-image: url("./images/form-background2.png");
     background-size: cover;
     height: 779px;
     background-repeat: no-repeat;
@@ -504,7 +504,7 @@ body {
   }
 
   .intro-section {
-    background-image: url("/images/desktop-version.png");
+    background-image: url("./images/desktop-version.png");
     background-size: cover;
     height: 1000px;
   }
@@ -706,7 +706,7 @@ body {
   }
 
   .contact-form {
-    background-image: url("/images/form-background.png");
+    background-image: url("./images/form-background.png");
     background-size: cover;
     height: 846px;
     background-repeat: no-repeat;
