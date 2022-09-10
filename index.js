@@ -1,9 +1,4 @@
-/* globals toggleMobileMenu */
-/* globals openDropdownItem */
-/* globals closePopUp */
-/* globals openPopUp */
-/* globals closeDesktopPopUp' */
-/* globals openDesktopPopUp */
+/* eslint no-unused-vars: 0 */
 
 function toggleMobileMenu() {
   document
